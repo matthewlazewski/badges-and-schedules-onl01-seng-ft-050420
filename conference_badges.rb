@@ -16,13 +16,16 @@ def assign_rooms(attendees)
 end 
 
 def printer(attendees)
-
+  puts batch_badge_creator(attendees)
+  puts assign_rooms(attendees)
 end 
 
- # greeting = ""
+  =begin
+  greeting = ""
   name_actual = batch_badge_creator(attendees)
   room_actual = assign_rooms(attendees)
   
   room_num = room_actual.each { |name, room| return room }
   greeting = name_actual + room_num
   puts greeting 
+  =end
