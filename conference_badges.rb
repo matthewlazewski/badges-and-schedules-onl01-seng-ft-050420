@@ -17,5 +17,5 @@ end
 
 def printer(attendees)
   arr = []
-  attendees.each { |name| arr << puts batch_badge_creator(name) }
+  attendees.each { |name| arr << batch_badge_creator(name) }
 end 
